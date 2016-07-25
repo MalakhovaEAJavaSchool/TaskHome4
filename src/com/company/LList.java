@@ -29,6 +29,12 @@ public class LList<T>
         count ++;
     }
 
+    //returns the number of values in the list
+    public int size()
+    {
+        return count;
+    }
+
     public T get(int index)
     {
         if(head == null || index > count -1)
